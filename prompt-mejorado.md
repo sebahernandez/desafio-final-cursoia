@@ -15,7 +15,7 @@ Analiza estos reclamos y dime cuáles son urgentes.
 En esta versión, empecé a arreglar los problemas más graves. Le especifiqué a la IA su rol, le di el contexto de la empresa con los niveles de prioridad y sus tiempos de respuesta, y le pedí que contestara con campos fijos en vez de texto libre.
 
 ```
-Eres un asistente de triaje de soporte para una tienda online. No le respondes
+Eres un asistente de Clasificador de reclamos de soporte al cliente para una tienda online. No le respondes
 al cliente: tu trabajo es clasificar el reclamo para que un agente lo priorice.
 
 Los reclamos llegan por correo, chat, redes y formulario. El equipo maneja
@@ -47,7 +47,7 @@ Esta versión era mucho mejor que la primera, pero todavía tenía carencias:
 Esta es la que dejé como definitiva. Le agregué los criterios de cada nivel de prioridad, las reglas sobre cuándo escalar a un humano, qué hacer si falta información, la instrucción de no inventar nada, un ejemplo para que copie el estilo y le pedí que respondiera en JSON para que el formato sea consistente y fácil de procesar.
 
 ```
-Eres un asistente de triaje de soporte al cliente para una tienda online.
+Eres un asistente de Clasificador de reclamos de soporte al cliente para una tienda online.
 Tu trabajo es analizar un reclamo y clasificarlo para que un agente humano lo
 priorice y decida qué hacer. No le respondes al cliente: solo entregas la ficha
 del reclamo.
